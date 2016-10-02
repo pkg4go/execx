@@ -3,8 +3,8 @@ package execx
 import "os/exec"
 import "strings"
 
-func Run(name string, arg ...string) (out string, err error) {
-	data, err := exec.Command(name, arg...).Output()
+func Run(name string, args ...string) (out string, err error) {
+	data, err := exec.Command(name, args...).Output()
 	if err != nil {
 		return err.Error(), err
 	}

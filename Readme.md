@@ -5,15 +5,7 @@
 
 ### execx
 
-* A tiny wrapper of `os/exec`.
-
-### APIs
-
-* Run: `Run(name string, arg ...string) (out string, err error)`
-
-```go
-out, err := Run("ls", "-a")
-```
+* A tiny wrapper of `os/exec` and some utils.
 
 ### License
 MIT
